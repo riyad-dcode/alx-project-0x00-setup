@@ -1,6 +1,6 @@
-import { PillProps } from "@/interfaces";
+import { ButtonProps } from "@/interfaces";
 
-const Pill: React.FC<PillProps> = ({ title }) => {
+const Button: React.FC<ButtonProps> = ({ title, styles }) => {
   return (
     <div className=" flex justify-center  items-center bg-[#F9F9F9] px-3 w-auto h-[27px] rounded-full">
       <p className=" text-sm ">{title}</p>
@@ -8,4 +8,4 @@ const Pill: React.FC<PillProps> = ({ title }) => {
   )
 }
 
-export default Pill;
+export default Button;
