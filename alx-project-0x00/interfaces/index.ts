@@ -6,4 +6,5 @@ export interface ButtonProps {
   title: string
   styles?: string
   style?: React.CSSProperties
+  ["styles: string"]
 }
